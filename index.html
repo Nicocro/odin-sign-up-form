@@ -11,38 +11,46 @@
         <!-- <img src="assets/jungle.jpg" alt="jungle-background"> -->
     </div>
     <div class="right-container">
-        <p>
-            This is not a real online service! You know you need something like this 
-            in your life to help you realize your deepest dreams. Sign up now to get started.
-                
-            You know you want to
-        </p>
-        <form action="example.com/path" method="post">
-
-            <h1> Let's do this!</h1>
-
-            <label for="first_name">First Name</label>
-            <input type="text" id="first_name" name="first_name">
-
-            <label for="last_name">Last Name</label>
-            <input type="text" id="last_name" name="last_name">
-
-            <label for="email">Email</label>
-            <input type="text" id="email" name="email">
-
-            <label for="password">Password</label>
-            <input type="password" id="password" name="password" placeholder="Password">
-            
-            <label for="confirm-password">Confirm Password</label>
-            <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password">
-        
-            <button type="submit" class="submit-button">Create Account</button>
-
-        </form>
-
-        <p>
-            Already have an account? log in 
-        </p>
+        <div class="greetings">
+            <p>
+                This is not a real online service! You know you need something like this 
+                in your life to help you realize your deepest dreams. Sign up now to get started.
+            </p>
+            <p>
+                You know you want to
+            </p>
         </div>
+        <div class="form-div">
+            <h1> Let's do this!</h1>
+            <form action="example.com/path" method="post" class="form" id="sign-up=form">
+                <div class="form-box">
+                    <label for="first_name">First Name</label>
+                    <input type="text" id="first_name" name="first_name">
+                </div>
+                <div class="form-box">
+                    <label for="last_name">Last Name</label>
+                    <input type="text" id="last_name" name="last_name">
+                </div>
+                <div class="form-box">
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email">
+                </div>
+                <div class="form-box">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Password">
+                </div>
+                <div class="form-box">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm Password">
+                </div>                      
+            </form>
+        </div>
+        <div class="footer-div">
+            <button type="submit" form="sign-up-form" class="submit-button">Create Account</button>
+            <p>
+                Already have an account? log in 
+            </p>
+        </div>
+    </div>
 </body>
 </html>

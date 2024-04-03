@@ -1,14 +1,53 @@
 body {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    font-size: 24px;
+    color: #000;
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .left-container {
-    width: 40%;
-    /* height: 100%; */
     background-image: url("assets/jungle.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.left-container img {
-    width:100%;
+.right-container {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.greetings, .form-div, .footer-div {
+    width: 100%;
+    padding-left: 3rem;
+}
+
+.greetings {
+    height: 30%;
+    background-color: #eeedeb7a;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding-bottom: 1rem; 
+}
+
+.form-div {
+    height: 45%;
+    overflow-y: scroll;
+    padding-bottom: 1rem;
+    background-color: #ace2baaf;
 }
